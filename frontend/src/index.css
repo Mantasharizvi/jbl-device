@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: 'Poppins', sans-serif;
+  background: #0a0a0a;
+  color: #ffffff;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+a { text-decoration: none; color: inherit; }
+button { font-family: inherit; cursor: pointer; border: none; }
+img { max-width: 100%; display: block; }
+
+:root {
+  --jbl-orange: #ff4500;
+  --jbl-orange-light: #ff6b3d;
+  --jbl-pink: #ff3d7f;
+  --jbl-purple: #6a1b9a;
+  --jbl-purple-light: #9c27b0;
+  --jbl-dark: #0a0a0a;
+  --jbl-dark-2: #1a1a1a;
+  --jbl-white: #ffffff;
+  --jbl-gray: #aaaaaa;
+}
