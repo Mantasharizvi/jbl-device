@@ -109,6 +109,7 @@ const About = () => {
           <div>
             <h3>{offer.title}</h3>
             <p>Lorem  Experience deep bass and crystal clear sound with JBL's flagship lineup designed for every mood.</p>
+           {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a href="#" className="btn-learn">Learn More</a>
           </div>
           <img src={offer.img} alt={offer.title} />
